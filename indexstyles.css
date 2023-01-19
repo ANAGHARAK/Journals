@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: Josefin Sans;
+  }
+  .navbar {
+    overflow: hidden;
+     background: linear-gradient(to right, #F3CE8F,#Ffb6c1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #301934;
+    color: white;
+  }
+  .navbar p {
+      text-align: center;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-bottom: 30px;
+  }
+  .topnav {
+    overflow: hidden;
+     background: linear-gradient(to right, #F3CE8F,#Ffb6c1);
+  ;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 3px 16px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ddd;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+
+  #conf{
+    display:flex;
+    flex-direction:column;
+    padding:2px 150px;
+    height: 285px
+}
+
+#conf::before{
+  content: "";
+  background: url('conf.webp') no-repeat center center/cover;
+  position: absolute;
+  height: 350px;
+  top:0px;
+  left:0px;
+  width:100%;
+  z-index: -1;
+  opacity:0.8;
+  
+}
+
+#conf h2{
+  color:#fff; 
+  text-align:center;
+  font-family: 'Playfair Display', serif;
+}
+/* #conf p{
+  
+  font-size:1.5 rem;
+  font-family: 'Bree Serif', serif;
+
+} */
+
+.container{
+  display:flex;
+  height:100px;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  background: #fff;
+  width:600px;
+  height:55px;
+  display:flex;
+}
+form input{
+  flex:1px;
+  border:none;
+  outline:none;
+}
+
+form button{
+  background:tomato;
+  padding:10px 50px;
+  border:none;
+  outline:none;
+  color:#fff;
+  letter-spacing:1px;
+  cursor:pointer;
+}
+
+form .fa-magnifying-glass{
+  align-self: center;
+  padding:10px 20px;
+  color:#777;
+}
+#para{
+   padding: 2px 100px;
+   height: 315px;
+   display:flex;
+   flex-direction:column; 
+}
+
+#para .cont{
+  background-color: rgb(194, 194, 194);
+  height:200px;
+  padding:3px 34px;
+  font-size:1.5 rem;
+  font-family: 'Bree Serif', serif;
+
+}
+#para h4{
+  font-size: 25px;
+  font-family: 'Bree Serif', serif;
+  background: transparent;
+  border-radius: 10px;
+  width: 330px;
+  box-shadow: 0 8px 0 0 #cf631a;
+  
+}
+
+
+
+  
+  .h-primary{
+    font-size: 2.8rem;
+    text-align:center;
+    font-family: 'Bree Serif', serif;
+}
+
+#submit{
+  display:flex;
+  flex-direction:column;
+  padding:50px 150px;
+  height: 285px
+}
+#submit .sub{
+    background-image: url('bg1.jpg');
+    position: absolute;
+    height: 500px;
+    width:75%;
+    z-index: -1;
+    opacity:0.8;
+    padding: 60px;
+    border-radius: 20px;
+
+}
+
+#submit .sub .subname{
+  
+  background-color: #a4d3ee;
+  width:420px;
+  padding:5px;
+  margin-bottom:60px;
+  border:1px solid #a4d3ee;
+  border-radius:8px;
+  font-size: 1.8rem;
+  
+}
+#submit .sub .p-1{
+  
+  background-color: #a4d3ee;
+  width:650px;
+  padding:2px;
+  border:1px solid #a4d3ee;
+  border-radius:8px;
+  font-size: 1.2rem;
+  
+}
+
+#head{
+  display:flex;
+  flex-direction:column;
+  padding:2px 150px;
+  height: 250px;
+}
+
+#head::before{
+content: "";
+background: url('bg2.jpg') no-repeat center center/cover;
+position: absolute;
+height: 300px;
+top:0px;
+left:0px;
+width:100%;
+z-index: -1;
+opacity:0.8;
+
+}
+#head .head1{
+  padding:45px;
+}
+#head h2{
+color:#fff; 
+text-align:center;
+font-family: 'Playfair Display', serif;
+}
+
